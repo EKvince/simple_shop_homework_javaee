@@ -34,5 +34,6 @@
 //        out.print("hell!");
 //    }
 %>
+<p><a href="http://localhost:8080/FirstJavaEEPro_war_exploded/hello-servlet">返回商店</a></p>
 </body>
 </html>

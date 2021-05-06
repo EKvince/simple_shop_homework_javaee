@@ -33,7 +33,7 @@
 <div id="p1">
     <div id="p2">
         <table align=center >
-            <form id="form1" method="post" action="CheckLogin.jsp">
+            <form id="form1" method="post" action="http://localhost:8080/FirstJavaEEPro_war_exploded/login_check_serverlet">
                 <tr>
                     <td>
                         用户名(管理员账号为ali

@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.io.*;
 
 
+
 public class DB {
     private Connection conn;
     private String userID;
@@ -25,7 +26,7 @@ public class DB {
             throwables.printStackTrace();
         }
     }
-    public int updata(int userId,int productID,int number){
+    public int updata(int userId, int productID, int number){
         int id=get_maxid()+1;
 //        System.out.println(id);
         Date time= new Date(new java.util.Date().getTime());
